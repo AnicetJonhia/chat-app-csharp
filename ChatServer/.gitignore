@@ -1,0 +1,43 @@
+## Ignore les binaires et les fichiers de build
+bin/
+obj/
+out/
+
+## Fichiers utilisateur Visual Studio / Rider / VS Code
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dotCover
+.idea/
+
+## Packages NuGet
+*.nupkg
+*.snupkg
+packages/
+# Fichier global NuGet
+.nuget/
+
+## Fichiers temporaires
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+
+## Recherches / caches
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+*.dotCover
+
+## Publish / deploy
+publish/
+*.publishsettings
+*.pubxml
+*.publishproj
+
+## Secrets / clés / configuration locale
+appsettings.Development.json
+*.env
+secrets.json
