@@ -59,6 +59,7 @@ Backend pour une application de chat simple avec ASP.NET Core, SignalR et SQLite
     "ExpireMinutes": "60"
   }
 }
+```
 
 Lancer le projet
 ``` bash
@@ -67,7 +68,6 @@ chmod +x setup.sh
 ./setup.sh
 dotnet ef migrations add InitialCreate
 dotnet run
-
 ```
 
 L’API sera disponible sur :
